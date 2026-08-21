@@ -1,36 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
-    android:background="@color/background">
+    android:padding="24dp">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LAPORAN DRH MANDIRI"
+        android:text="Laporan DRH Mandiri"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="@color/primary"
-        android:gravity="center"
-        android:padding="16dp" />
+        android:gravity="center" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Aplikasi Pencatatan Laporan Dokter Hewan Mandiri"
+        android:text="Aplikasi Laporan DRH Mandiri"
         android:textSize="16sp"
         android:gravity="center"
-        android:textColor="@color/black"
-        android:paddingBottom="24dp" />
+        android:layout_marginTop="16dp" />
 
-    <Button
-        android:id="@+id/btnTambahLaporan"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="+ TAMBAH LAPORAN" />
-
-    <Button
-        android:id="@+
+</LinearLayout>
